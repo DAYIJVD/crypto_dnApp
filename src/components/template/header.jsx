@@ -4,6 +4,7 @@ import { getCoinsDataAll } from "../../services/coinApi";
 
 
 
+// eslint-disable-next-line react/prop-types
 const Header = ({setShowModal,setDatahchart}) => { 
     const [search,setSearch]=useState("");
     const [data,setdata]=useState([]);
