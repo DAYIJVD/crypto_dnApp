@@ -1,0 +1,100 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+body {
+  margin: auto;
+  max-width: 1200px;
+  height: fit-content;
+  padding: 10px;
+  /* background-color: #131315; */
+  background-color: #111827;
+  color: #fff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+#bg{
+  height: 300px;
+  background-image: url(./oip.jpeg);
+}
+/* slide */
+#slideOutUp {
+  -webkit-animation-name: slideOutUp;
+  animation-name: slideOutUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideOutUp {
+  0% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  100% {
+  visibility:100%;
+  -webkit-transform: translateY(-100vh);
+  transform: translateY(-100vh);
+  }
+  }
+  @keyframes slideOutUp {
+  0% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  100% {
+  visibility: 100%;
+  -webkit-transform: translateY(-100vh);
+  transform: translateY(-100vh);
+  }
+  } 
+#searchBox{
+  top: 3rem;
+}
+ #fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInUp {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInUp {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+
+#graph{
+width: 760px;
+height: 360px;
+background-color: #111827;
+
+}
+  
